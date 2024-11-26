@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background com Media Queries</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Alterar o Background com Media Queries</h1>
+    <p>Redimensione a janela para ver as mudanças de cor do fundo!</p>
+</body>
+</html>
