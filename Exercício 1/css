@@ -1,0 +1,33 @@
+/* Estilos padrão */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Fundo azul para telas maiores que 1024px */
+@media (min-width: 1024px) {
+    body {
+        background-color: blue;
+    }
+}
+
+/* Fundo verde para telas entre 768px e 1024px */
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        background-color: green;
+    }
+}
+
+/* Fundo amarelo para telas menores que 768px */
+@media (max-width: 767px) {
+    body {
+        background-color: yellow;
+        color: black;
+    }
+}
